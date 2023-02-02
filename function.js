@@ -172,3 +172,23 @@ const fact = factorial(number);
 console.log('factorial of:', number, fact)
 
 */
+
+//Find max number in a array
+/*
+function maxInArray(numbers){
+        let maxNumber = numbers[0];
+    for(let i=0; i<heights.length; i++){
+
+        let element = numbers[i];
+        if(element > maxNumber){
+            maxNumber = element;
+        }
+    }
+    return maxNumber;
+
+}
+
+let heights = [123, 124,56, 120];
+let tallest = maxInArray(heights);
+console.log('tallest person is:', tallest)
+*/
